@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(to right,#67ADDA, #334F6C);
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #47474C;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 32px 34px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+header li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.inicio {
+    background-color: #1D7A70;
+}
+
+.Bienvenida {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 16%; 
+    margin-bottom: 16%;
+}
+
+.texto{
+    margin-bottom: 50px;
+}
+
+#Tabla {
+    border-collapse:collapse;
+}
+
+#Tabla thead{
+    background-color: #CAB579;
+    font-weight: bold;
+}
+
+#Tabla td,th{
+    border: 2px solid;
+}
+
+#Tabla thead tr {
+    font-family: "Trebuchet MS";
+    text-align: center;
+    font-size:22px; 
+} 
+
+#Tabla tbody{
+    font-family: "Trebuchet MS";
+    text-align: left;
+    vertical-align: top;
+    font-size:15px; 
+} 
+
+#Tabla tbody li{
+   list-style: none;
+   font-family: "Trebuchet MS"; 
+   font-size:17px;
+   color: black;
+   margin-bottom: 5px;
+}
+
+#Portadas{
+    text-align: center;
+}
+
+.centrar{
+    text-align: center; 
+}
+
+.centrar img,
+.centrar a {
+    display: block; 
+    margin: 40px auto;
+}
+
+
+hr{
+    height: 2px;
+    border-color: black;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+#Logo-UCB{
+    float: left;
+}
